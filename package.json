@@ -1,7 +1,7 @@
 {
   "name": "hardhat-playground",
   "version": "1.0.0",
-  "description": "Personal Hardhat exploration — Lock, SimpleStorage, TypeChain, gas reporter",
+  "description": "Personal Hardhat exploration - Lock, SimpleStorage, TypeChain, gas reporter",
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test",
