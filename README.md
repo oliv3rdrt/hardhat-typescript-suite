@@ -38,13 +38,13 @@ Expected: 10 tests passing across `Lock.test.ts` and `SimpleStorage.test.ts`.
 
 ## Mainnet forking
 
-Set `MAINNET_RPC_URL` in `.env`, then:
+Set `MAINNET_RPC_URL` in `.env` to an archive-capable endpoint. Recommended: an Infura URL from [MetaMask Developer](https://developer.metamask.io). Then:
 
 ```bash
 npx hardhat test --network hardhat
 ```
 
-Tests run against a fork of mainnet at the latest block.
+Tests run against a fork of mainnet at the latest block. Archive access is needed to fork at a pinned historical block.
 
 ## Gas report
 
